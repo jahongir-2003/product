@@ -1,0 +1,9 @@
+.page-title .page-title-img{
+    width: 35px;
+    height: 35px;
+}
+
+.page-title span{
+    font-weight: 400 ;
+    font-size: calc(1.375rem + 1.5vw);
+}

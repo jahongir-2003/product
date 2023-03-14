@@ -1,0 +1,49 @@
+.custom-spinner {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  position: relative;
+  border-radius: 50%;
+}
+
+.ripple {
+  background-color: red;
+  opacity: 0.5;
+  border-radius: 50%;
+  transform: scale(1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  animation-name: ripple;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  z-index: -1;
+}
+
+.custom-spinner-1 .ripple {
+  animation-delay: 0;
+}
+.custom-spinner-2 .ripple {
+  animation-delay: 0.2s;
+}
+.custom-spinner-3 .ripple {
+  animation-delay: 0.4s;
+}
+.custom-spinner-4 .ripple {
+  animation-delay: 0.6s;
+}
+.custom-spinner-5 .ripple {
+  animation-delay: 0.8s;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2.6);
+  }
+}

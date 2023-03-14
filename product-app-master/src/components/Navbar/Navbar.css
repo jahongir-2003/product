@@ -1,0 +1,44 @@
+.navbar{
+    padding: 10px 0;
+    box-shadow: 1px 1px 20px #8a2be2;
+    top: 0;
+    background-color:#fff;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar .navbar-left .logo{
+    width: 64px;
+    height: 64px;
+}
+
+.navbar  .navbar-left .logo-text{
+    color: #8a2be2;
+    font-weight: 700;
+}
+
+
+
+
+.navbar  .navbar-right .basket-img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.navbar  .navbar-right .cart-count{
+    background-color: #8a2be2;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    height: 20px;
+    right: -10px;
+    top: -7px;
+    width: 20px;
+}
+
+
+
+
+
+
